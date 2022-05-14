@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F2F5F7;
+    background-color: hsl(204, 24%, 96%);
     padding: 25px 0 50px 0;
 }
 
@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F5E2D1;
+    background-color: hsl(28, 64%, 89%,.9);
     margin: 325px;
     padding: 25px;
 }
@@ -129,16 +129,16 @@ h1,h2,h3,h4,h5,h5 {
 
 .sign-up-btn {
     padding: 5px 15px;
-    background: #232C33;
-    color: #fff;
+    background: hsl(206, 19%, 17%);
+    color: hsl(0, 0%, 100%);
     margin-top: 1rem;
-    border: 1px solid #232C33;
+    border: 1px solid hsl(206, 19%, 17%);
 }
 
 .sign-up-btn:hover {
     cursor: pointer;
-    color: #232C33;
-    background-color: #fff;
+    color: hsl(206, 19%, 17%);
+    background-color: hsl(0, 0%, 100%);
     transition: .5s;
 }
 
