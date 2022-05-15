@@ -23,7 +23,8 @@ h1,h2,h3,h4,h5,h5 {
     justify-content: center;
     align-items: center;
     background-color: hsl(204, 24%, 96%);
-    padding: 50px 0 50px 0;
+    padding: 50px 15px 50px 15px;
+    height: 40vh;
 }
 
 .company-name {
@@ -37,6 +38,10 @@ h1,h2,h3,h4,h5,h5 {
     text-align: center;
 }
 
+.company-name span {
+    margin: 3px;
+}
+
 .title, .title-subscript {
     display: flex;
     justify-content: center;
@@ -46,13 +51,14 @@ h1,h2,h3,h4,h5,h5 {
 
 .title {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 1.25rem;
 }
 
 .bg-img-1 {
     grid-column: 1/13;
     grid-row: 2/3;
-    height: 25rem;
+    /* height: 25rem; */
+    height: 60vh;
     background-image: url(../img/house-interior-1.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,7 +95,7 @@ h1,h2,h3,h4,h5,h5 {
 }
 
 .section-3 * img {
-    max-width: 375px;
+    max-width: 300px;
     margin-right: 25px;
 }
 
@@ -163,7 +169,7 @@ h1,h2,h3,h4,h5,h5 {
 }
 
 .section-6 * img {
-    max-width: 375px;
+    max-width: 300px;
     margin-right: 25px;
 }
 
