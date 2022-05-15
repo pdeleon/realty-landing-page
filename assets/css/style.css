@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h5 {
     align-items: center;
     background-color: hsl(204, 24%, 96%);
     padding: 50px 15px 50px 15px;
-    height: 45vh;
+    /* height: 45vh; */
 }
 
 .company-name {
@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h5 {
     grid-column: 1/13;
     grid-row: 2/3;
     /* height: 25rem; */
-    height: 55vh;
+    height: 25rem;
     background-image: url(../img/house-interior-1.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -281,8 +281,8 @@ h1,h2,h3,h4,h5,h5 {
 @media only screen and (max-width: 576px) {
 
     .section-1, .section-2, .section-4, .section-5, .section-7, .section-3, .section-6 {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }  
 
     .bg-img-2 .section-content, .bg-img-2-2 .section-content{
