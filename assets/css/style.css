@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h5 {
     align-items: center;
     background-color: hsl(204, 24%, 96%);
     padding: 50px 15px 50px 15px;
-    height: 40vh;
+    height: 45vh;
 }
 
 .company-name {
@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h5 {
     grid-column: 1/13;
     grid-row: 2/3;
     /* height: 25rem; */
-    height: 60vh;
+    height: 55vh;
     background-image: url(../img/house-interior-1.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
