@@ -2,6 +2,7 @@
     --dflt-padding: 25px;
     --primary-font:'Playfair Display', serif;
     --secondary-font: 'Roboto', sans-serif;
+    font-size: 10px;
     font-family: var(--secondary-font);
 }
 
@@ -15,6 +16,10 @@ h1,h2,h3,h4,h5,h5 {
     font-weight: 600;
 }
 
+p {
+    font-size: 1.7rem;
+}
+
 .header {
     grid-column: 1/13;
     grid-row: 1/2;
@@ -24,7 +29,7 @@ h1,h2,h3,h4,h5,h5 {
     align-items: center;
     background-color: hsl(204, 24%, 96%);
     padding: 50px 15px 50px 15px;
-    /* height: 45vh; */
+    min-height: 45vh;
 }
 
 .company-name {
@@ -33,7 +38,7 @@ h1,h2,h3,h4,h5,h5 {
     justify-content: center;
     align-items: center;
     opacity: .75;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     margin-bottom: var(--dflt-padding);
     text-align: center;
 }
@@ -50,7 +55,7 @@ h1,h2,h3,h4,h5,h5 {
 
 
 .title {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-bottom: 1.25rem;
 }
 
@@ -58,7 +63,7 @@ h1,h2,h3,h4,h5,h5 {
     grid-column: 1/13;
     grid-row: 2/3;
     /* height: 25rem; */
-    height: 25rem;
+    min-height: 45vh;
     background-image: url(../img/house-interior-1.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -68,7 +73,9 @@ h1,h2,h3,h4,h5,h5 {
 
 
 .section {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
+    display: grid;
+    justify-content: center;
 }
 
 .section-1 {
@@ -139,15 +146,17 @@ h1,h2,h3,h4,h5,h5 {
     padding: 5px 15px;
     background: hsl(206, 19%, 17%);
     color: hsl(0, 0%, 100%);
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     border: 1px solid hsl(206, 19%, 17%);
+    font-size: 1.6rem;
 }
 
 .sign-up-btn:hover {
     cursor: pointer;
     color: hsl(206, 19%, 17%);
     background-color: hsl(0, 0%, 100%);
-    transition: .5s;
+    transition: .6s;
+    font-weight: bold;
 }
 
 .section-5 {
@@ -196,7 +205,7 @@ h1,h2,h3,h4,h5,h5 {
 }
 
 .section-heading {
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin-bottom: .75rem;
 }
 
@@ -208,8 +217,16 @@ h1,h2,h3,h4,h5,h5 {
     justify-content: center;
     padding: 25px;
     text-align: center;
+    font-size: 1.3rem;
 }
 
+.max-text {
+    max-width: 70ch;
+}
+
+.border-radius {
+    border-radius: .5rem;
+}
 
 
 
@@ -250,6 +267,11 @@ h1,h2,h3,h4,h5,h5 {
         padding-left: 50px;
         padding-right: 50px;
     }      
+
+    .bg-img-2,
+    .bg-img-2-2 {
+        height: 40rem;
+    }
 
 }
 
